@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Site</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="menuPrincipal">
+            <a href="pagina-inicial.html" target="_blank" class="logo">
+                <img src="assets/3d-company-logos-design-logo-online-2300300px.png" alt="meu logo">
+            </a>
+            <ul class="listaCategorias">
+                <li class="Páginas"><a href="#" target="_blank"><i class="fas fa-file-alt"></i> Páginas</a></li>
+                <li class="Aplicativos"><a href="#" target="_blank"><i class="fas fa-mobile-alt"></i> Aplicativos</a></li>
+                <li class="Exclusivos"><a href="#" target="_blank"><i class="fas fa-star"></i> Exclusivos</a></li>
+                <li class="Jogos"><a href="#" target="_blank"><i class="fas fa-gamepad"></i> Jogos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Bem-vindos!</h1>
+        <div class="slideshow">
+            <!-- Slideshow 3D aqui -->
+        </div>
+    </section>
+    <article id="gallery">
+        <h2>Galeria de Imagens</h2>
+        <div class="gallery">
+            <img src="assets/imagens/wp8305827anime.webp" alt="Imagem 1">
+            <img src="assets/imagens/wp9212729narutoduo.webp" alt="Imagem 2">
+            <img src="assets/imagens/21629fullmetal.jpg" alt="Imagem 3">
+            <img src="assets/imagens/wp6531884onepice.webp" alt="Imagem 4">
+        </div>
+    </article>
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="submit_form.php" method="post" class="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Site Futurista. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.google.com" target="_blank"><i class="fab fa-google"></i></a>
+            
+        </div>
+    </footer><br><br><br><br>
+    <script src="script.js" defer></script>
+</body>
+</html>
